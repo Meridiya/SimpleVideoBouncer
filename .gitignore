@@ -1,0 +1,8 @@
+.idea
+.run
+.tests
+.venv
+venv
+dist
+__pycache__
+.pytest_cache

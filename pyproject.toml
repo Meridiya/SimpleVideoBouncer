@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "testmoretv"
+version = "0.1.0"
+description = ""
+authors = ["Meridiya <natarist16@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sanic = "^21.12.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+black = "^22.1.0"
+isort = "^5.10.1"
+sanic-testing = "^0.8.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+moretv = "testmoretv.__main__:main"
